@@ -91,6 +91,7 @@ Our manual inspection of the documents was quite limited, as neither of the auth
 <br>
 
 **Future thoughts to consider:** (cons)
+- Choose GloVe (denser) instead of Tf-Idf matrix (sparse) representation to optimize space and time complexity
 - Possible false positives, difficult to draw an exact line between subjects
 - K-means and t-SNE are unsupervised approaches that will not necessarily group instances in a predictable way. Due to their unsupervised nature, there is no 'right answer' for how the papers should be clustered. This could be difficult to debug if problems arise.
 - Loss of foreign language papers. This leads to the loss of experience from different geographic locations on dealing with COVID-19
